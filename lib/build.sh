@@ -171,6 +171,11 @@ install_npm() {
   fi
 }
 
+install_node_global_packages() {
+  npm install -g LiveScript
+  npm install -g gulp
+}
+
 function build_dependencies() {
 
   if [ "$modules_source" == "" ]; then
