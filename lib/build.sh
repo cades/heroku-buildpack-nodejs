@@ -172,7 +172,7 @@ install_npm() {
 }
 
 install_node_global_packages() {
-  npm install -g LiveScript
+  npm install -g livescript
   npm install -g gulp
 }
 
